@@ -3,6 +3,8 @@ require('dotenv').config();
 
 let sequelize;
 
+// create db connection
+// the returned object is sequelized
 if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
@@ -18,4 +20,5 @@ if (process.env.JAWSDB_URL) {
   );
 }
 
+// export to other modules
 module.exports = sequelize;
