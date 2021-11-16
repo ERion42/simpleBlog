@@ -1,3 +1,4 @@
+// Not using this, but keeping it for the time being
 const router = require('express').Router();
 const { Project } = require('../../models');
 const withAuth = require('../../utils/auth');
