@@ -43,7 +43,7 @@ See? Very basic. It does, however, have a functional user signup and log in.
 
 And finally, it has a dashboard that kind of works. This will be the first feature I fix when I come back to this.
 
-
+![Dashboard](https://i.imgur.com/CdNCawk.png)
 
   
 ## Contributing
